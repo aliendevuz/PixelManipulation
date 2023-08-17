@@ -12,15 +12,15 @@ def print_test_information():
 def print_matrix_result(test_quantity, class_name, result_for_pixels, result_for_pixel):
     print()
     tab_count = 3 - len(class_name) // 4
-    print(class_name, "pixels: Hamma pikselni o'zgartirish uchun ketadigan o'rtacha vaqt -" + "\t" * (tab_count + 3),
+    print(class_name, "pixels: Hamma pikselni o'zgartirish uchun ketadigan o'rtacha vaqt -" + "\t" * (tab_count),
           result_for_pixels, "mikrosekund")
     print(
-        f"{class_name} pixels: Har bir pikselni o'zgartirish uchun ketadigan o'rtacha vaqt -{chr(9) * (tab_count + 3 - int(len(class_name) % 4 >= 2))} {result_for_pixel:.20f} mikrosekund")
-    print(class_name, "pixels: Erishish mumkin bo'lgan ekran yangilanish tezligi -" + "\t" * (tab_count + 5),
+        f"{class_name} pixels: Har bir pikselni o'zgartirish uchun ketadigan o'rtacha vaqt -{chr(9) * (tab_count + 1 - int(len(class_name) % 4 >= 2))} {result_for_pixel:.20f} mikrosekund")
+    print(class_name, "pixels: Erishish mumkin bo'lgan ekran yangilanish tezligi -" + "\t" * (tab_count + 1),
           1_000_000 / result_for_pixels, "FPS")
     print(
-        f"{class_name} pixels: Biz kutgan natijadan nechchi marta tez -{chr(9) * (tab_count + 8 - int(len(class_name) % 4 > 2))} {0.008 / result_for_pixel} marta")
-    print(class_name, "pixels: Biz kutgan natijadan nechchi marta sekin -" + "\t" * (tab_count + 7),
+        f"{class_name} pixels: Biz kutgan natijadan nechchi marta tez -{chr(9) * (tab_count + 3 - int(len(class_name) % 4 > 2))} {0.008 / result_for_pixel} marta")
+    print(class_name, "pixels: Biz kutgan natijadan nechchi marta sekin -" + "\t" * (tab_count + 2),
           result_for_pixel / 0.008, "marta")
     print("Yuqoridagi qiymatlar displeyni yangilash uchun ketadigan vaqtni hisobga olmaydi!" if test_quantity != 0
           else "TKinter eng sekin ishlovchi bo'lgani uchun faqat 1 marta sinovdan o'tkaziladi!")
@@ -32,8 +32,8 @@ def print_convert_result(result):
     print("Shuningdek piksellarni eng tez o'zgartirish usuli 2 o'lchamli massiv yaratish")
     print("Piksellarni tez o'zgartirgan bilan uni ekranda tasvirlash uchun yordamchi kutubxona kerak (PyGame)")
     print("Shuning uchun MatrixArray2D ni PyGame ga convert qilish uchun qancha vaqt ketishini hisoblaymiz ;)")
-    print("MatrixArray2D'ni PyGame'ga o'tkazishga ketgan vaqt -" + chr(9) * 10, result, "mikrosekund")
-    print("Ushbu holat uchun erishish mumkinn bo'lgan ekran yangilanish tezligi -" + chr(9) * 6, 1_000_000 / result,
+    print("MatrixArray2D'ni PyGame'ga o'tkazishga ketgan vaqt -" + chr(9) * 5, result, "mikrosekund")
+    print("Ushbu holat uchun erishish mumkinn bo'lgan ekran yangilanish tezligi -" + chr(9) * 3, 1_000_000 / result,
           "mikrosekund")
 
 

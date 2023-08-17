@@ -1,6 +1,11 @@
+from pygame import display, init
+
+
+init()
 
 
 class Const:
-    width = 1920
-    height = 1080
-    test_quantity = 30
+    size = display.get_desktop_sizes()[0]
+    width = size[0]
+    height = size[1]
+    test_quantity = 10

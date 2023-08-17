@@ -3,6 +3,7 @@
 Ushbu loyihada men o'yin yaratish uchun eng yaxshi piksellarni boshqarish imkonini beruvchi texnologiyani aniqlashga harakat qilib ko'raman. Shuningdek, test natijalarini siz bilan baham ko'raman.
 
 Test natijalari har xil qurilmalarda har xil chiqadi, shuning uchun sizga qiziq bo'lsa, siz ham sinov o'tkazib ko'ring va natijasini men bilan baham ko'rishingizni xohlayman. Albatta, siz yuborgan natijalarni ushbu github omborimga joylashtiraman, chunki bizga aniq natija kerak.
+
 <!--
 ## Sinov maqsadi
 
@@ -37,3 +38,10 @@ Sizga algoritmingizni optimallashtirish haqida ko'p gapirdim, ammo bu siz uchun 
 *Boshlang'ich ma'lumotlar yozildi*
 
 ---
+
+## Hali loyiha nihoyasiga yetmagan
+
+Hali loyiha nihoyasiga yetmagan va men bilmagan piksellarni manipulatsiya qilish usullari bor ekan, men ularni ham sinab ko'rishim kerak, shunday keyin loyiha nihoyasiga yetgan hisoblanadi, nihoyasiga yetsa o'zim e'lon qilaman
+
+Bundan tashqari CV2 kutubxonasi ham bor ekan, eng qizig'i u ham rasmni ekranga chiqarish imkoniyatiga ega va pygame bilan raqobatchi bo'lishi mumkin
+[Manipulate pixel with CV2 library](https://www.tutorialspoint.com/how-to-access-and-modify-pixel-value-in-an-image-using-opencv-python)

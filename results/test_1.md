@@ -1,6 +1,4 @@
-# 1 - test natijasi:
-
----
+# `1 - test natijasi: 👨‍🔬`
 
 ```
 ################################################################################################################
@@ -63,4 +61,14 @@ Tavfsiyalar:
  - tezlikni oshirish uchun displey o'lchamini kichraytirish ham foydali bo'lishi mumkin
  - barcha o'zgarmaydigan layerlarni o'yin boshlanishidan oldin yaratib oling
 Batafsil README.md faylini ichidan topasiz ;)
+```
+
+### `Sinov o'tkazilgan qurilma xususiyatlari: 💻`
+
+```
+• Modeli         - Asus VivoBook Pro 15 OLED 
+• CPU            - i5
+• RAM            - 8GB
+• ROM            - 256GB
+• Videokartasi   - Intel Iris Xe Graphics (2GB)
 ```

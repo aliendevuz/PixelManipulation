@@ -1,6 +1,4 @@
-# 2 - test natijasi:
-
----
+# `2 - test natijasi: 👨‍🔬`
 
 ```
 #############################################################################################################
@@ -84,4 +82,14 @@ pixelarray from_matrix:
 	Kutilganidan necha marta sekin			- 23.78 marta
 
 Sinov muvafaqqiyatli yakunlandi!
+```
+
+### `Sinov o'tkazilgan qurilma xususiyatlari: 💻`
+
+```
+• Modeli         - Asus VivoBook Pro 15 OLED 
+• CPU            - i5
+• RAM            - 8GB
+• ROM            - 256GB
+• Videokartasi   - Intel Iris Xe Graphics (2GB)
 ```

@@ -13,8 +13,8 @@ Sinov maqsadi o'yin yaratishda grafikalar bo'yicha qaysi biri tezkorroq ekanligi
 
 Test natijalari bilan quyidagi manzil orqali tanishishingiz mumkin:
 
-- [Barcha test natijalari](https://github.com/khalilovibrohimuz/GraphTestForPython/tree/master/tests)
-- [Eng yaxshi test natijasi](https://github.com/khalilovibrohimuz/GraphTestForPython/blob/master/tests/4ndTest.md)
+- [Barcha get_pixel natijalari](https://github.com/khalilovibrohimuz/GraphTestForPython/tree/master/tests)
+- [Eng yaxshi get_pixel natijasi](https://github.com/khalilovibrohimuz/GraphTestForPython/blob/master/tests/4ndTest.md)
 
 ## Maslahatlar
 
@@ -45,3 +45,23 @@ Hali loyiha nihoyasiga yetmagan va men bilmagan piksellarni manipulatsiya qilish
 
 Bundan tashqari CV2 kutubxonasi ham bor ekan, eng qizig'i u ham rasmni ekranga chiqarish imkoniyatiga ega va pygame bilan raqobatchi bo'lishi mumkin
 [Manipulate pixel with CV2 library](https://www.tutorialspoint.com/how-to-access-and-modify-pixel-value-in-an-image-using-opencv-python)
+
+Hozircha eng tezkori baribir pygame bo'lib qolayapti, eng moslashuvchan va samaralisi pygame.
+Shuning uchun ham biz pygamedan foydalanamiz, yana bir gap, pygamedagi pixel_array piksellarni boshqarishi biroz sekin kechar ekan, men uni tezlashtirishni bir usulini kashf qildim :)
+
+Unga ko'ra matrix_2d ni o'rniga pixel_map nomli dictdan foydalanamiz, uning avzalligi piksellarni bir necha marta o'zgartirishga to'g'ri kelganda imkon qadar tezroq o'zgartira oladi, bundan tashqari faqat piksel o'zgargan qismi uchun javobgar, shuning uchun ham u sezilarli darajada tezroq ish bajaradi
+
+Rang texnologiyasiga keladigan bo'lsak, men o'zimi color (1.0, 1.0, 1.0, 1.0) stilimni faqat rangni yaratish jarayonida ishlataman, eng tezkor rang texnologiyasi bu int qiymatidir, shuning uchun ham imkon qadar intdan ko'proq fodalanish kerak!
+
+Biz eski testdagi testlardan voz kechdik, ularni o'rniga quyidagilarni kiritdik
+* PixelArray
+* Matrix
+* Dict
+
+Konvertlar:
+* Matrix to PixelArray
+* Dict to PixelArray
+
+### Barchasi deyarli tayyor
+
+Barchasi deyarli tayyor bo'ldi, faqat 1 o'lchamli matritsa uchun bu qanday bo'lishini sinab ko'rishim kerak, agar u tezkorroq bo'lsa men undan foydalanaman

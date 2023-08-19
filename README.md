@@ -3,6 +3,14 @@
 Assalomu aleykum!
 Ushbu loyihada men `piksellarni yuqori tezlikda boshqarishni aniqlash` uchun tadqiqot o'tkazib, ulardan eng yaxshi usulni aniqlashga harakat qildim 🙂
 
+###### *Maqola hali to'liq yozilmagan, hali yozishim kerak bo'lgan ayrim narsalar bor*
+
+<!--
+Shu yerda kiritilishi kerak bo'lgan narsalarni vaqtincha saqlab qo'yamiz
+- Men hali qanday qilib displeydan samarali foydalanish va optimal kodlar yozish borasida tavfsiyalar kiritganim yo'q
+
+-->
+
 ## Muammo nimada?
 
 Men `python` tilida kod yozish orqali grafik dasturlar yaratishga qiziqaman, lekin displeyni boshqarish men o'ylagandan ham sekinroq jarayon ekan.
